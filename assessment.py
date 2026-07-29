@@ -1,16 +1,3 @@
-"""
-Auto Email / Ticket Categorizer
-================================
-Reads labeled support tickets (subject + body), cleans the text, vectorizes it
-with TF-IDF, trains a classifier, evaluates it, and exposes a predict()
-function that returns a category, a confidence score, a "needs human review"
-flag, and a simple urgent/normal priority tag.
-
-Usage:
-    python ticket_classifier.py                # train + evaluate + demo predictions
-    python ticket_classifier.py --interactive   # also drop into a live CLI demo
-"""
-
 import re
 import sys
 import argparse
@@ -26,9 +13,8 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
-# --------------------------------------------------------------------------
-# 1. CONFIG
-# --------------------------------------------------------------------------
+# Config
+
 DATA_PATH = r"C:\Academic\BASE\support_tickets_dataset.csv"     # columns: id, ticket_id, subject, body, category
 TEXT_COLUMNS = ["subject", "body"]
 LABEL_COLUMN = "category"
@@ -41,9 +27,8 @@ URGENT_KEYWORDS = [
     "blocked", "outage", "emergency",
 ]
 
-# --------------------------------------------------------------------------
-# 2. TEXT PREPROCESSING
-# --------------------------------------------------------------------------
+# Text Preprocessing
+
 def clean_text(text: str) -> str:
     """Lowercase, strip URLs/numbers/punctuation/extra whitespace.
 
@@ -71,17 +56,15 @@ def build_corpus(df: pd.DataFrame) -> pd.Series:
     return combined.apply(clean_text)
 
 
-# --------------------------------------------------------------------------
-# 3. PRIORITY TAGGING (bonus) — simple keyword rule, independent of the model
-# --------------------------------------------------------------------------
+# Priority Tagging 
+
 def tag_priority(raw_text: str) -> str:
     text = raw_text.lower()
     return "urgent" if any(kw in text for kw in URGENT_KEYWORDS) else "normal"
 
 
-# --------------------------------------------------------------------------
-# 4. TRAIN
-# --------------------------------------------------------------------------
+# TRAIN
+
 def train():
     df = pd.read_csv(DATA_PATH)
     df["clean_text"] = build_corpus(df)
@@ -112,9 +95,8 @@ def train():
     return model, vectorizer, X_test_vec, y_test
 
 
-# --------------------------------------------------------------------------
-# 5. EVALUATE
-# --------------------------------------------------------------------------
+# Evaluate
+
 def evaluate(model, X_test_vec, y_test):
     y_pred = model.predict(X_test_vec)
 
@@ -131,10 +113,8 @@ def evaluate(model, X_test_vec, y_test):
     print(cm_df)
     return acc
 
+# Predict 
 
-# --------------------------------------------------------------------------
-# 6. PREDICT (single new ticket) — confidence + human-review + priority
-# --------------------------------------------------------------------------
 def predict_ticket(subject: str, body: str, model, vectorizer):
     raw_text = f"{subject} {body}"
     cleaned = clean_text(raw_text)
@@ -157,9 +137,8 @@ def predict_ticket(subject: str, body: str, model, vectorizer):
     }
 
 
-# --------------------------------------------------------------------------
-# 7. DEMO: 5 new, unseen sample tickets
-# --------------------------------------------------------------------------
+# More Samples
+
 SAMPLE_TICKETS = [
     ("App keeps crashing on startup",
      "Ever since I updated the app this morning it crashes immediately on launch. This is urgent, I can't get any work done."),
@@ -174,9 +153,8 @@ SAMPLE_TICKETS = [
 ]
 
 
-# --------------------------------------------------------------------------
-# 8. MAIN
-# --------------------------------------------------------------------------
+# Main
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--interactive", action="store_true",
