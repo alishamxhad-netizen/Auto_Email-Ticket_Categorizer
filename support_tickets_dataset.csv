@@ -1,0 +1,541 @@
+id,ticket_id,subject,body,category
+1,TCK-3170,API returning timeout errors,I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?,Technical
+2,TCK-3438,Inquiry about your privacy policy,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+3,TCK-3157,Sync issue between mobile and desktop,"Hi, this is Carlos. Data I enter on the mobile app isn't syncing with the desktop version of the admin console. Changes made on one device don't appear on the other.",Technical
+4,TCK-3462,Suggestion for a new feature,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+5,TCK-3440,Request for a company brochure,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+6,TCK-3382,Clarification on remote work policy,"I submitted a reimbursement claim for $214.97 on April 2, but it still shows as pending after two weeks. Could you check the status?",HR
+7,TCK-3278,Clarification on remote work policy,I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?,HR
+8,TCK-3344,Update on my promotion paperwork,"Hi, this is Jordan. Could you please send me a copy of my original offer letter? I need it for a visa application.",HR
+9,TCK-3287,Onboarding documents not received,There seems to be a discrepancy in my attendance records for February; a few days I worked from the office are marked as absent.,HR
+10,TCK-3511,Media inquiry for an interview,"Hi, this is Layla. I have a general question about how the web dashboard works and whether it would be a good fit for a small team like ours.",General
+11,TCK-3077,Late fee charged despite on-time payment,"Hi, this is Fatima. The currency conversion on my latest invoice looks off; it shows $409.30 instead of the expected amount in USD. Please check.",Billing
+12,TCK-3249,Slow performance on the billing portal,"the API has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+13,TCK-3296,Requesting update to my personal details,"Hi, this is Noah. Could HR please issue an employment verification letter for me? I need it for a loan application by March 18.",HR
+14,TCK-3028,Downgrade my plan and adjust billing,I have not received an invoice for December yet. Could you please send it to my registered email as soon as possible?,Billing
+15,TCK-3457,How do I contact the sales team?,I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?,General
+16,TCK-3533,Requesting a product demo,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+17,TCK-3417,Inquiry about your privacy policy,"Hi, this is Priya. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+18,TCK-3058,Missing invoice for June,"Hi, this is Ethan. I cancelled my subscription last month, but I was still billed $127.73 on April 23. Please refund this charge and confirm the cancellation.",Billing
+19,TCK-3035,Need invoice reissued with correct company name,I upgraded my plan mid-cycle and I'm confused about the prorated charge of $66.72. Could you explain how this was calculated?,Billing
+20,TCK-3488,Inquiry about career opportunities,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+21,TCK-3333,Question about health insurance enrollment,"Hi, this is Isabella. I submitted a reimbursement claim for $212.09 on October 19, but it still shows as pending after two weeks. Could you check the status?",HR
+22,TCK-3300,Question about my leave balance,"Hi, this is Layla. I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?",HR
+23,TCK-3385,Request for employment verification letter,Could you please send me a copy of my original offer letter? I need it for a visa application.,HR
+24,TCK-3314,Update on my promotion paperwork,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+25,TCK-3046,Tax amount seems wrong on invoice #89905,"Hi, this is Noah. My invoice #96563 lists an amount of $111.80, but according to my plan it should only be $113.33. Please review and issue a corrected invoice.",Billing
+26,TCK-3316,Issue with attendance records,"Hi, this is Kevin. Could HR please issue an employment verification letter for me? I need it for a loan application by March 21.",HR
+27,TCK-3328,Unable to log hours in the HR portal,Could HR please issue an employment verification letter for me? I need it for a loan application by August 6.,HR
+28,TCK-3454,How do I contact the sales team?,Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.,General
+29,TCK-3119,Billed twice this month,"Hi, this is Sam. My company name is spelled incorrectly on invoice #58015. Could you reissue it with the correct name for our records?",Billing
+30,TCK-3473,Media inquiry for an interview,"Hi, this is Anna. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+31,TCK-3469,General compliment for your support team,"Hi, this is Mohammed. I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?",General
+32,TCK-3303,Issue with attendance records,"Hi, this is Fatima. I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.",HR
+33,TCK-3474,Media inquiry for an interview,Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.,General
+34,TCK-3138,Getting error 500 when saving changes,"Hi, this is Mohammed. I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+35,TCK-3092,Refund request for duplicate payment,"Hi, this is Aisha. I cancelled my subscription last month, but I was still billed $59.31 on July 28. Please refund this charge and confirm the cancellation.",Billing
+36,TCK-3236,Sync issue between mobile and desktop,"Hi, this is Grace. None of my data is loading in the checkout page today; the dashboard just shows a spinning loader indefinitely.",Technical
+37,TCK-3340,Request for employment verification letter,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+38,TCK-3159,Integration with third-party tool broken,"I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+39,TCK-3204,Slow performance on the mobile app,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+40,TCK-3369,Unable to access payslip for July,"Hi, this is Sofia. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+41,TCK-3510,How do I contact the sales team?,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+42,TCK-3131,Missing invoice for July,"Hi, this is Diego. I have not received an invoice for April yet. Could you please send it to my registered email as soon as possible?",Billing
+43,TCK-3167,Export to CSV fails every time,"Hi, this is Jordan. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+44,TCK-3337,Unable to log hours in the HR portal,"Hi, this is Fatima. I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.",HR
+45,TCK-3237,Login loop after entering credentials,"Hi, this is Zara. I stopped receiving push notifications from the customer portal about a week ago, even though notifications are enabled in settings.",Technical
+46,TCK-3038,Tax amount seems wrong on invoice #13761,I tried updating my card details in the billing portal but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+47,TCK-3280,Request for a copy of my offer letter,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+48,TCK-3112,Invoice #60709 shows wrong amount,I tried updating my card details in the API but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+49,TCK-3074,Requesting a copy of my receipt,"Hi, this is Yusuf. I upgraded my plan mid-cycle and I'm confused about the prorated charge of $190.12. Could you explain how this was calculated?",Billing
+50,TCK-3404,Request to change my reporting manager on file,"Hi, this is Noah. There seems to be a discrepancy in my attendance records for February; a few days I worked from the office are marked as absent.",HR
+51,TCK-3123,Question about proration on my upgrade,"Hi, this is Zara. I upgraded my plan mid-cycle and I'm confused about the prorated charge of $119.15. Could you explain how this was calculated?",Billing
+52,TCK-3459,Partnership opportunity inquiry,"Hi, this is Wei. I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?",General
+53,TCK-3002,Tax amount seems wrong on invoice #63354,"Hi team, I noticed I was charged $342.55 on my February invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+54,TCK-3534,General compliment for your support team,"Hi, this is Carlos. I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.",General
+55,TCK-3357,Question about health insurance enrollment,"Hi, this is Yusuf. I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.",HR
+56,TCK-3027,Billed twice this month,I have not received an invoice for March yet. Could you please send it to my registered email as soon as possible?,Billing
+57,TCK-3518,Question about business hours,I have a general question about how the admin console works and whether it would be a good fit for a small team like ours.,General
+58,TCK-3346,Unable to log hours in the HR portal,"I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+59,TCK-3021,Question about proration on my upgrade,My company name is spelled incorrectly on invoice #77000. Could you reissue it with the correct name for our records?,Billing
+60,TCK-3412,Request for a company brochure,"Hi, this is Aisha. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+61,TCK-3176,the mobile app v3.2 crashes on login,"Hi, this is Victor. I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?",Technical
+62,TCK-3143,Login loop after entering credentials,"Hi, this is Anna. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+63,TCK-3415,Feedback on recent experience,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+64,TCK-3375,Question about my leave balance,"Hi, this is Raj. I'm unable to download my payslip for August from the HR portal; it just shows a loading error every time I click on it.",HR
+65,TCK-3443,Question about your return policy,"Hi, this is Diego. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+66,TCK-3405,Update on my promotion paperwork,"Hi, this is Ben. I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+67,TCK-3464,Feedback on recent experience,"Hi, this is Aisha. Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.",General
+68,TCK-3499,General inquiry about your services,Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.,General
+69,TCK-3231,Export to CSV fails every time,"Whenever I try to export my report to CSV in the admin console, the download fails and I get a generic error message.",Technical
+70,TCK-3365,Request for a copy of my offer letter,"Hi, this is Tara. Could HR please issue an employment verification letter for me? I need it for a loan application by November 28.",HR
+71,TCK-3491,Question about company locations,Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.,General
+72,TCK-3164,Slow performance on the API,"After installing the latest update, the CRM tool just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+73,TCK-3540,General compliment for your support team,I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.,General
+74,TCK-3429,Suggestion for a new feature,"Hi, this is Raj. I have a general question about how the checkout page works and whether it would be a good fit for a small team like ours.",General
+75,TCK-3094,Tax amount seems wrong on invoice #43550,My card shows a deduction of $83.97 but the payment status in the desktop client still says declined. Please investigate and confirm whether the payment went through.,Billing
+76,TCK-3487,Inquiry about your privacy policy,"Hi, this is Wei. I'd like to suggest a new feature for the desktop client that would let users export data in bulk; it would save a lot of time.",General
+77,TCK-3098,Question about proration on my upgrade,I have not received an invoice for March yet. Could you please send it to my registered email as soon as possible?,Billing
+78,TCK-3140,Getting error 500 when saving changes,None of my data is loading in the mobile app v3.2 today; the dashboard just shows a spinning loader indefinitely.,Technical
+79,TCK-3158,Two-factor authentication not working,"After installing the latest update, the admin console just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+80,TCK-3355,Request for a copy of my offer letter,"Hi, this is Emma. Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.",HR
+81,TCK-3322,Update on my promotion paperwork,"Hi, this is Nina. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+82,TCK-3093,Billed twice this month,The tax charged on invoice #55793 seems higher than usual. Can someone from billing confirm the tax rate applied?,Billing
+83,TCK-3306,Issue with attendance records,"Hi, this is Zara. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+84,TCK-3266,Cannot connect to the server,"Every time I try to log into the desktop client, the app crashes immediately after entering my credentials. This started after the update on March 11.",Technical
+85,TCK-3292,Unable to log hours in the HR portal,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+86,TCK-3195,Notifications not showing up,"After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+87,TCK-3268,Blank screen after latest update,"After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+88,TCK-3239,Integration with third-party tool broken,"the desktop client has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+89,TCK-3199,the admin console crashes on login,"Hi, this is Wei. Every time I try to log into the admin console, the app crashes immediately after entering my credentials. This started after the update on November 5.",Technical
+90,TCK-3484,Question about your return policy,I'm interested in career opportunities at your company. Could you point me to your current job openings?,General
+91,TCK-3325,Question about my leave balance,Could you please send me a copy of my original offer letter? I need it for a visa application.,HR
+92,TCK-3101,Unable to update my payment method,"Hi, this is Mei. My card shows a deduction of $70.85 but the payment status in the reporting module still says declined. Please investigate and confirm whether the payment went through.",Billing
+93,TCK-3222,Blank screen after latest update,"Hi, this is Isabella. Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around August 2.",Technical
+94,TCK-3318,Onboarding documents not received,"Hi, this is Diego. I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+95,TCK-3189,App freezes during file upload,"After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+96,TCK-3257,Integration with third-party tool broken,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+97,TCK-3070,Missing invoice for April,"Hi, this is Fatima. My company name is spelled incorrectly on invoice #26199. Could you reissue it with the correct name for our records?",Billing
+98,TCK-3366,Issue with reimbursement claim,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+99,TCK-3513,Inquiry about career opportunities,"Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+100,TCK-3149,Blank screen after latest update,None of my data is loading in the CRM tool today; the dashboard just shows a spinning loader indefinitely.,Technical
+101,TCK-3529,Question about business hours,I'm interested in career opportunities at your company. Could you point me to your current job openings?,General
+102,TCK-3372,Issue with reimbursement claim,"Hi, this is Nina. I submitted a reimbursement claim for $468.84 on July 19, but it still shows as pending after two weeks. Could you check the status?",HR
+103,TCK-3371,Unable to log hours in the HR portal,"Hi, this is Liam. Could you please send me a copy of my original offer letter? I need it for a visa application.",HR
+104,TCK-3241,Two-factor authentication not working,"Hi, this is Diego. Data I enter on the mobile app isn't syncing with the desktop version of the web dashboard. Changes made on one device don't appear on the other.",Technical
+105,TCK-3393,Onboarding documents not received,"Hi, this is Isabella. I submitted a reimbursement claim for $30.13 on June 3, but it still shows as pending after two weeks. Could you check the status?",HR
+106,TCK-3270,Export to CSV fails every time,"Every time I try to log into the API, the app crashes immediately after entering my credentials. This started after the update on May 4.",Technical
+107,TCK-3445,General inquiry about your services,"Hi, this is Victor. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+108,TCK-3444,Inquiry about your privacy policy,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+109,TCK-3497,Partnership opportunity inquiry,I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.,General
+110,TCK-3307,Unable to access payslip for March,"Hi, this is Chloe. Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.",HR
+111,TCK-3111,Late fee charged despite on-time payment,Could you please email me a copy of the receipt for invoice #81313? I need it for my expense report.,Billing
+112,TCK-3397,Parental leave policy clarification,"Hi, this is Aisha. I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+113,TCK-3434,Question about business hours,"Hi, this is Tara. Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.",General
+114,TCK-3193,Slow performance on the web dashboard,"Hi, this is Isabella. I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?",Technical
+115,TCK-3483,Request for a company brochure,"Hi, this is Noah. I have a general question about how the desktop client works and whether it would be a good fit for a small team like ours.",General
+116,TCK-3285,Parental leave policy clarification,"Hi, this is Grace. Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.",HR
+117,TCK-3273,Update on my promotion paperwork,"Hi, this is Noah. Could HR please issue an employment verification letter for me? I need it for a loan application by December 18.",HR
+118,TCK-3069,Question about proration on my upgrade,"I paid my bill on time via the payment gateway, but I was still charged a late fee of $156.95. Please remove this fee from my account.",Billing
+119,TCK-3490,Question about business hours,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+120,TCK-3201,Slow performance on the web dashboard,"Hi, this is Mei. I keep getting a 500 internal server error whenever I try to save changes in the checkout page. This happens consistently, even after restarting the app.",Technical
+121,TCK-3294,Request for a copy of my offer letter,"Hi, this is Zara. Could you please send me a copy of my original offer letter? I need it for a visa application.",HR
+122,TCK-3352,Clarification on remote work policy,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+123,TCK-3148,the customer portal crashes on login,"Hi, this is Ben. I keep getting a 500 internal server error whenever I try to save changes in the CRM tool. This happens consistently, even after restarting the app.",Technical
+124,TCK-3512,General compliment for your support team,"Hi, this is Liam. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+125,TCK-3091,Billed twice this month,"I paid my bill on time via the web dashboard, but I was still charged a late fee of $212.90. Please remove this fee from my account.",Billing
+126,TCK-3451,Question about company locations,"Hi, this is Diego. Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.",General
+127,TCK-3142,App freezes during file upload,None of my data is loading in the mobile app today; the dashboard just shows a spinning loader indefinitely.,Technical
+128,TCK-3422,Requesting a product demo,I'm interested in learning more about the desktop client and would like to request a demo for my team sometime next week.,General
+129,TCK-3411,Media inquiry for an interview,"Hi, this is Zara. I'd like to suggest a new feature for the mobile app v3.2 that would let users export data in bulk; it would save a lot of time.",General
+130,TCK-3245,Two-factor authentication not working,"the mobile app v3.2 has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+131,TCK-3289,Requesting update to my personal details,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+132,TCK-3198,Export to CSV fails every time,The integration between the web dashboard and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+133,TCK-3506,General compliment for your support team,Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?,General
+134,TCK-3129,Requesting a copy of my receipt,"Hi, this is Emma. Could you please email me a copy of the receipt for invoice #99783? I need it for my expense report.",Billing
+135,TCK-3524,Requesting a product demo,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+136,TCK-3049,Subscription renewed but I cancelled it,My card shows a deduction of $160.89 but the payment status in the reporting module still says declined. Please investigate and confirm whether the payment went through.,Billing
+137,TCK-3244,Login loop after entering credentials,Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around July 7.,Technical
+138,TCK-3014,Late fee charged despite on-time payment,I tried updating my card details in the desktop client but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+139,TCK-3240,Data not loading in the payment gateway,Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around November 9.,Technical
+140,TCK-3050,Missing invoice for October,Could you please email me a copy of the receipt for invoice #86955? I need it for my expense report.,Billing
+141,TCK-3420,Suggestion for a new feature,"Hi, this is Mohammed. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+142,TCK-3179,Integration with third-party tool broken,"After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+143,TCK-3171,Login loop after entering credentials,"Hi, this is Diego. Every time I try to log into the mobile app v3.2, the app crashes immediately after entering my credentials. This started after the update on August 4.",Technical
+144,TCK-3007,Unable to update my payment method,"My invoice #87924 lists an amount of $487.72, but according to my plan it should only be $131.74. Please review and issue a corrected invoice.",Billing
+145,TCK-3043,Tax amount seems wrong on invoice #48290,"Hi, this is Anna. The currency conversion on my latest invoice looks off; it shows $449.96 instead of the expected amount in USD. Please check.",Billing
+146,TCK-3165,Integration with third-party tool broken,"Hi, this is Fatima. I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?",Technical
+147,TCK-3327,Parental leave policy clarification,"Hi, this is Mei. I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+148,TCK-3114,Billed twice this month,The currency conversion on my latest invoice looks off; it shows $27.25 instead of the expected amount in USD. Please check.,Billing
+149,TCK-3304,Request for employment verification letter,There seems to be a discrepancy in my attendance records for October; a few days I worked from the office are marked as absent.,HR
+150,TCK-3139,Slow performance on the checkout page,The integration between the API and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+151,TCK-3269,Unable to reset my password,The integration between the billing portal and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+152,TCK-3508,Feedback on recent experience,"Hi, this is Mei. I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.",General
+153,TCK-3060,Requesting a copy of my receipt,"Hi, this is Grace. I paid my bill on time via the admin console, but I was still charged a late fee of $140.43. Please remove this fee from my account.",Billing
+154,TCK-3100,Unable to update my payment method,I was charged twice for the same subscription on February 19. Please refund the duplicate transaction of $344.18 to my original payment method.,Billing
+155,TCK-3330,Issue with attendance records,"Hi, this is Sam. I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?",HR
+156,TCK-3023,Credit card declined but money was deducted,"Hi, this is Fatima. My company name is spelled incorrectly on invoice #60328. Could you reissue it with the correct name for our records?",Billing
+157,TCK-3084,Unable to update my payment method,"Hi, this is Kevin. I tried updating my card details in the reporting module but it keeps failing with an error. Can someone assist me in updating my payment method?",Billing
+158,TCK-3039,Overcharged on my May invoice,I tried updating my card details in the admin console but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+159,TCK-3515,Inquiry about your privacy policy,I'm interested in learning more about the billing portal and would like to request a demo for my team sometime next week.,General
+160,TCK-3169,Cannot connect to the server,Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around May 14.,Technical
+161,TCK-3502,Question about company locations,"Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+162,TCK-3228,Cannot connect to the server,"Hi, this is Diego. I keep getting a 500 internal server error whenever I try to save changes in the mobile app v3.2. This happens consistently, even after restarting the app.",Technical
+163,TCK-3360,Question about health insurance enrollment,"Hi, this is Aisha. I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+164,TCK-3439,Question about company locations,Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.,General
+165,TCK-3297,Issue with reimbursement claim,Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.,HR
+166,TCK-3379,Update on my promotion paperwork,Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.,HR
+167,TCK-3097,Subscription renewed but I cancelled it,I have not received an invoice for December yet. Could you please send it to my registered email as soon as possible?,Billing
+168,TCK-3087,Missing invoice for July,I was charged twice for the same subscription on October 3. Please refund the duplicate transaction of $457.06 to my original payment method.,Billing
+169,TCK-3116,Question about proration on my upgrade,I was billed on both August 23 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+170,TCK-3495,General question about the checkout page,"Hi, this is Mei. I have a general question about how the customer portal works and whether it would be a good fit for a small team like ours.",General
+171,TCK-3080,Invoice #92978 shows wrong amount,"My invoice #48652 lists an amount of $171.48, but according to my plan it should only be $310.67. Please review and issue a corrected invoice.",Billing
+172,TCK-3203,Unable to reset my password,"Hi, this is Ethan. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+173,TCK-3298,Question about year-end bonus calculation,"I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+174,TCK-3232,Getting error 500 when saving changes,"Hi, this is Carlos. The app freezes completely whenever I try to upload a file larger than 10MB in the mobile app. I have to force close it every time.",Technical
+175,TCK-3302,Request to change my reporting manager on file,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+176,TCK-3018,Requesting a copy of my receipt,I have not received an invoice for May yet. Could you please send it to my registered email as soon as possible?,Billing
+177,TCK-3467,Feedback on recent experience,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+178,TCK-3141,Unable to reset my password,The app freezes completely whenever I try to upload a file larger than 10MB in the desktop client. I have to force close it every time.,Technical
+179,TCK-3463,General inquiry about your services,"Hi, this is Emma. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+180,TCK-3001,Billed twice this month,"Hi, this is Alex. My invoice #38080 lists an amount of $126.35, but according to my plan it should only be $347.62. Please review and issue a corrected invoice.",Billing
+181,TCK-3234,Integration with third-party tool broken,"Hi, this is Mohammed. None of my data is loading in the mobile app today; the dashboard just shows a spinning loader indefinitely.",Technical
+182,TCK-3047,Requesting a copy of my receipt,"Hi team, I noticed I was charged $123.36 on my May invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+183,TCK-3056,Overcharged on my May invoice,The currency conversion on my latest invoice looks off; it shows $79.49 instead of the expected amount in USD. Please check.,Billing
+184,TCK-3073,Currency conversion looks incorrect on invoice,The currency conversion on my latest invoice looks off; it shows $377.19 instead of the expected amount in USD. Please check.,Billing
+185,TCK-3196,App freezes during file upload,"Hi, this is Carlos. The integration between the billing portal and our third-party analytics tool stopped working after the recent update; no data is being pulled through.",Technical
+186,TCK-3013,Invoice #81511 shows wrong amount,"Hi, this is Raj. The currency conversion on my latest invoice looks off; it shows $287.18 instead of the expected amount in USD. Please check.",Billing
+187,TCK-3477,Request for a company brochure,"Hi, this is Wei. I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.",General
+188,TCK-3247,Unable to reset my password,"Hi, this is Sofia. Whenever I try to export my report to CSV in the mobile app, the download fails and I get a generic error message.",Technical
+189,TCK-3190,App freezes during file upload,"Whenever I try to export my report to CSV in the API, the download fails and I get a generic error message.",Technical
+190,TCK-3349,Parental leave policy clarification,"Hi, this is Jordan. I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+191,TCK-3008,Currency conversion looks incorrect on invoice,"Hi, this is Omar. Hi team, I noticed I was charged $127.33 on my December invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+192,TCK-3226,Export to CSV fails every time,"Hi, this is Zara. None of my data is loading in the checkout page today; the dashboard just shows a spinning loader indefinitely.",Technical
+193,TCK-3263,App freezes during file upload,Data I enter on the mobile app isn't syncing with the desktop version of the desktop client. Changes made on one device don't appear on the other.,Technical
+194,TCK-3516,Question about your return policy,I have a general question about how the billing portal works and whether it would be a good fit for a small team like ours.,General
+195,TCK-3522,Inquiry about career opportunities,"Hi, this is Carlos. I'm interested in learning more about the API and would like to request a demo for my team sometime next week.",General
+196,TCK-3448,Media inquiry for an interview,Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?,General
+197,TCK-3096,Downgrade my plan and adjust billing,"Hi, this is Ethan. My card shows a deduction of $241.57 but the payment status in the billing portal still says declined. Please investigate and confirm whether the payment went through.",Billing
+198,TCK-3205,the web dashboard crashes on login,"Hi, this is Mei. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+199,TCK-3040,Refund request for duplicate payment,"Hi team, I noticed I was charged $193.60 on my November invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+200,TCK-3471,Suggestion for a new feature,"Hi, this is Fatima. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+201,TCK-3011,Credit card declined but money was deducted,"Hi, this is Zara. Could you please email me a copy of the receipt for invoice #76244? I need it for my expense report.",Billing
+202,TCK-3409,General question about the checkout page,Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.,General
+203,TCK-3389,Question about health insurance enrollment,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+204,TCK-3370,Issue with reimbursement claim,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+205,TCK-3209,Login loop after entering credentials,"Whenever I try to export my report to CSV in the web dashboard, the download fails and I get a generic error message.",Technical
+206,TCK-3029,Currency conversion looks incorrect on invoice,"Hi, this is Noah. My company name is spelled incorrectly on invoice #13804. Could you reissue it with the correct name for our records?",Billing
+207,TCK-3105,Currency conversion looks incorrect on invoice,My card shows a deduction of $241.98 but the payment status in the reporting module still says declined. Please investigate and confirm whether the payment went through.,Billing
+208,TCK-3326,Question about year-end bonus calculation,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+209,TCK-3219,Sync issue between mobile and desktop,"Hi, this is Noah. Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.",Technical
+210,TCK-3251,Getting error 500 when saving changes,"I stopped receiving push notifications from the customer portal about a week ago, even though notifications are enabled in settings.",Technical
+211,TCK-3246,Sync issue between mobile and desktop,"I keep getting a 500 internal server error whenever I try to save changes in the customer portal. This happens consistently, even after restarting the app.",Technical
+212,TCK-3041,Subscription renewed but I cancelled it,"Hi, this is Raj. Hi team, I noticed I was charged $103.40 on my February invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+213,TCK-3192,API returning timeout errors,"Hi, this is Layla. The integration between the payment gateway and our third-party analytics tool stopped working after the recent update; no data is being pulled through.",Technical
+214,TCK-3009,Downgrade my plan and adjust billing,"Hi, this is Aisha. The currency conversion on my latest invoice looks off; it shows $140.16 instead of the expected amount in USD. Please check.",Billing
+215,TCK-3255,Two-factor authentication not working,"I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+216,TCK-3374,Parental leave policy clarification,Could you please send me a copy of my original offer letter? I need it for a visa application.,HR
+217,TCK-3254,Cannot connect to the server,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+218,TCK-3178,the mobile app v3.2 crashes on login,The integration between the billing portal and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+219,TCK-3293,Issue with attendance records,Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.,HR
+220,TCK-3136,Notifications not showing up,"Whenever I try to export my report to CSV in the customer portal, the download fails and I get a generic error message.",Technical
+221,TCK-3132,Tax amount seems wrong on invoice #85718,The tax charged on invoice #71186 seems higher than usual. Can someone from billing confirm the tax rate applied?,Billing
+222,TCK-3181,Login loop after entering credentials,"I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+223,TCK-3034,Invoice #24168 shows wrong amount,"Hi, this is Kevin. My company name is spelled incorrectly on invoice #61990. Could you reissue it with the correct name for our records?",Billing
+224,TCK-3118,Subscription renewed but I cancelled it,"Hi, this is Anna. I tried updating my card details in the CRM tool but it keeps failing with an error. Can someone assist me in updating my payment method?",Billing
+225,TCK-3470,Suggestion for a new feature,I'd like to suggest a new feature for the desktop client that would let users export data in bulk; it would save a lot of time.,General
+226,TCK-3125,Billed twice this month,"Hi team, I noticed I was charged $454.99 on my June invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+227,TCK-3527,Inquiry about your privacy policy,"Hi, this is Priya. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+228,TCK-3130,Credit card declined but money was deducted,The currency conversion on my latest invoice looks off; it shows $78.40 instead of the expected amount in USD. Please check.,Billing
+229,TCK-3037,Invoice #70931 shows wrong amount,My card shows a deduction of $142.41 but the payment status in the billing portal still says declined. Please investigate and confirm whether the payment went through.,Billing
+230,TCK-3290,Request for employment verification letter,I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?,HR
+231,TCK-3261,Unable to reset my password,"Hi, this is Aisha. I keep getting a 500 internal server error whenever I try to save changes in the reporting module. This happens consistently, even after restarting the app.",Technical
+232,TCK-3496,Media inquiry for an interview,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+233,TCK-3188,Sync issue between mobile and desktop,Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around February 19.,Technical
+234,TCK-3378,Issue with reimbursement claim,"I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+235,TCK-3380,Issue with attendance records,"Hi, this is Noah. Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.",HR
+236,TCK-3113,Tax amount seems wrong on invoice #27486,I have not received an invoice for June yet. Could you please send it to my registered email as soon as possible?,Billing
+237,TCK-3109,Credit card declined but money was deducted,"Hi, this is Yusuf. I have not received an invoice for October yet. Could you please send it to my registered email as soon as possible?",Billing
+238,TCK-3163,Getting error 500 when saving changes,Data I enter on the mobile app isn't syncing with the desktop version of the API. Changes made on one device don't appear on the other.,Technical
+239,TCK-3128,Refund request for duplicate payment,"Hi, this is Chloe. I was charged twice for the same subscription on January 27. Please refund the duplicate transaction of $447.03 to my original payment method.",Billing
+240,TCK-3431,Question about business hours,I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?,General
+241,TCK-3068,Overcharged on my November invoice,"Hi, this is Isabella. Hi team, I noticed I was charged $470.37 on my March invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+242,TCK-3224,Data not loading in the CRM tool,The app freezes completely whenever I try to upload a file larger than 10MB in the mobile app. I have to force close it every time.,Technical
+243,TCK-3321,Request for employment verification letter,I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.,HR
+244,TCK-3315,Onboarding documents not received,I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.,HR
+245,TCK-3291,Question about my leave balance,"I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+246,TCK-3334,Update on my promotion paperwork,"Hi, this is Isabella. Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.",HR
+247,TCK-3151,Slow performance on the billing portal,Data I enter on the mobile app isn't syncing with the desktop version of the web dashboard. Changes made on one device don't appear on the other.,Technical
+248,TCK-3396,Unable to log hours in the HR portal,I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.,HR
+249,TCK-3514,Feedback on recent experience,"Hi, this is Isabella. I'd like to suggest a new feature for the customer portal that would let users export data in bulk; it would save a lot of time.",General
+250,TCK-3281,Request for a copy of my offer letter,"Hi, this is Priya. Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.",HR
+251,TCK-3095,Need invoice reissued with correct company name,My company name is spelled incorrectly on invoice #51436. Could you reissue it with the correct name for our records?,Billing
+252,TCK-3537,Request for a company brochure,I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?,General
+253,TCK-3472,General compliment for your support team,I'm interested in career opportunities at your company. Could you point me to your current job openings?,General
+254,TCK-3509,Question about your return policy,"Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+255,TCK-3122,Downgrade my plan and adjust billing,I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.,Billing
+256,TCK-3489,Inquiry about career opportunities,"Hi, this is Sofia. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+257,TCK-3308,Unable to log hours in the HR portal,There seems to be a discrepancy in my attendance records for February; a few days I worked from the office are marked as absent.,HR
+258,TCK-3520,Partnership opportunity inquiry,"Hi, this is Sofia. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+259,TCK-3309,Parental leave policy clarification,"Hi, this is Jordan. Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.",HR
+260,TCK-3042,Missing invoice for December,"Hi, this is Emma. My card shows a deduction of $431.24 but the payment status in the desktop client still says declined. Please investigate and confirm whether the payment went through.",Billing
+261,TCK-3211,Login loop after entering credentials,"After installing the latest update, the reporting module just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+262,TCK-3218,Unable to reset my password,Data I enter on the mobile app isn't syncing with the desktop version of the desktop client. Changes made on one device don't appear on the other.,Technical
+263,TCK-3331,Issue with attendance records,There seems to be a discrepancy in my attendance records for January; a few days I worked from the office are marked as absent.,HR
+264,TCK-3403,Unable to access payslip for March,I'm unable to download my payslip for January from the HR portal; it just shows a loading error every time I click on it.,HR
+265,TCK-3282,Question about year-end bonus calculation,"Hi, this is Liam. I recently changed my address and would like to update my personal details on file. Please let me know the process for this.",HR
+266,TCK-3381,Unable to log hours in the HR portal,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+267,TCK-3099,Need invoice reissued with correct company name,The tax charged on invoice #53213 seems higher than usual. Can someone from billing confirm the tax rate applied?,Billing
+268,TCK-3361,Request for employment verification letter,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+269,TCK-3168,App freezes during file upload,"Hi, this is Jordan. I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+270,TCK-3418,Suggestion for a new feature,"Hi, this is Anna. Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.",General
+271,TCK-3127,Refund request for duplicate payment,"Hi, this is Nina. The currency conversion on my latest invoice looks off; it shows $160.78 instead of the expected amount in USD. Please check.",Billing
+272,TCK-3305,Update on my promotion paperwork,"I submitted a reimbursement claim for $477.23 on March 9, but it still shows as pending after two weeks. Could you check the status?",HR
+273,TCK-3194,Blank screen after latest update,"Hi, this is Alex. Whenever I try to export my report to CSV in the billing portal, the download fails and I get a generic error message.",Technical
+274,TCK-3072,Invoice #63516 shows wrong amount,"Hi, this is Jordan. I upgraded my plan mid-cycle and I'm confused about the prorated charge of $489.04. Could you explain how this was calculated?",Billing
+275,TCK-3531,Inquiry about your privacy policy,I'm interested in career opportunities at your company. Could you point me to your current job openings?,General
+276,TCK-3154,Notifications not showing up,The integration between the customer portal and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+277,TCK-3180,App freezes during file upload,"Hi, this is Anna. I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?",Technical
+278,TCK-3530,Request for a company brochure,I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?,General
+279,TCK-3274,Unable to log hours in the HR portal,"Hi, this is Emma. Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.",HR
+280,TCK-3478,How do I contact the sales team?,"Hi, this is Sofia. I'm interested in learning more about the mobile app and would like to request a demo for my team sometime next week.",General
+281,TCK-3358,Issue with reimbursement claim,There seems to be a discrepancy in my attendance records for December; a few days I worked from the office are marked as absent.,HR
+282,TCK-3233,Blank screen after latest update,Data I enter on the mobile app isn't syncing with the desktop version of the web dashboard. Changes made on one device don't appear on the other.,Technical
+283,TCK-3003,Overcharged on my November invoice,"Hi, this is Priya. My invoice #65296 lists an amount of $102.68, but according to my plan it should only be $234.17. Please review and issue a corrected invoice.",Billing
+284,TCK-3153,Getting error 500 when saving changes,"After installing the latest update, the API just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+285,TCK-3230,the checkout page crashes on login,Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around November 13.,Technical
+286,TCK-3421,Media inquiry for an interview,"Hi, this is Jordan. I'm interested in career opportunities at your company. Could you point me to your current job openings?",General
+287,TCK-3475,General compliment for your support team,"Hi, this is Jordan. I'm interested in learning more about the customer portal and would like to request a demo for my team sometime next week.",General
+288,TCK-3064,Overcharged on my August invoice,"Hi, this is Liam. The tax charged on invoice #98815 seems higher than usual. Can someone from billing confirm the tax rate applied?",Billing
+289,TCK-3526,Inquiry about career opportunities,"Hi, this is Diego. Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.",General
+290,TCK-3406,Media inquiry for an interview,Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.,General
+291,TCK-3299,Issue with attendance records,"Hi, this is Victor. I submitted a reimbursement claim for $490.72 on March 19, but it still shows as pending after two weeks. Could you check the status?",HR
+292,TCK-3493,Request for a company brochure,"Hi, this is Omar. I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.",General
+293,TCK-3031,Need invoice reissued with correct company name,I was billed on both June 11 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+294,TCK-3532,Request for a company brochure,"Hi, this is Ethan. Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.",General
+295,TCK-3388,Requesting update to my personal details,"Hi, this is Zara. I'm unable to download my payslip for March from the HR portal; it just shows a loading error every time I click on it.",HR
+296,TCK-3217,Blank screen after latest update,"Hi, this is Aisha. The app freezes completely whenever I try to upload a file larger than 10MB in the web dashboard. I have to force close it every time.",Technical
+297,TCK-3338,Question about my leave balance,"I submitted a reimbursement claim for $332.81 on July 17, but it still shows as pending after two weeks. Could you check the status?",HR
+298,TCK-3124,Subscription renewed but I cancelled it,The currency conversion on my latest invoice looks off; it shows $372.92 instead of the expected amount in USD. Please check.,Billing
+299,TCK-3450,Question about your return policy,"Hi, this is Yusuf. Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.",General
+300,TCK-3312,Question about health insurance enrollment,Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.,HR
+301,TCK-3015,Credit card declined but money was deducted,I was billed on both December 26 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+302,TCK-3012,Subscription renewed but I cancelled it,The tax charged on invoice #67912 seems higher than usual. Can someone from billing confirm the tax rate applied?,Billing
+303,TCK-3468,How do I contact the sales team?,"Hi, this is Noah. I'm interested in career opportunities at your company. Could you point me to your current job openings?",General
+304,TCK-3390,Request to change my reporting manager on file,Could HR please issue an employment verification letter for me? I need it for a loan application by December 25.,HR
+305,TCK-3423,Suggestion for a new feature,"Hi, this is Anna. I'm interested in career opportunities at your company. Could you point me to your current job openings?",General
+306,TCK-3160,Slow performance on the desktop client,"Hi, this is Anna. The app freezes completely whenever I try to upload a file larger than 10MB in the CRM tool. I have to force close it every time.",Technical
+307,TCK-3283,Clarification on remote work policy,"Hi, this is Noah. I recently changed my address and would like to update my personal details on file. Please let me know the process for this.",HR
+308,TCK-3262,Data not loading in the API,I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?,Technical
+309,TCK-3048,Requesting a copy of my receipt,"Hi, this is Ben. I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.",Billing
+310,TCK-3110,Downgrade my plan and adjust billing,"Hi, this is Liam. I cancelled my subscription last month, but I was still billed $13.80 on October 18. Please refund this charge and confirm the cancellation.",Billing
+311,TCK-3146,Blank screen after latest update,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+312,TCK-3277,Request for employment verification letter,"I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+313,TCK-3436,Partnership opportunity inquiry,I have a general question about how the checkout page works and whether it would be a good fit for a small team like ours.,General
+314,TCK-3065,Need invoice reissued with correct company name,"Hi, this is Grace. I was charged twice for the same subscription on May 7. Please refund the duplicate transaction of $201.61 to my original payment method.",Billing
+315,TCK-3200,API returning timeout errors,Data I enter on the mobile app isn't syncing with the desktop version of the web dashboard. Changes made on one device don't appear on the other.,Technical
+316,TCK-3399,Clarification on remote work policy,Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.,HR
+317,TCK-3276,Issue with attendance records,"Hi, this is Mei. I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+318,TCK-3351,Clarification on remote work policy,"I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+319,TCK-3359,Update on my promotion paperwork,I'm unable to download my payslip for November from the HR portal; it just shows a loading error every time I click on it.,HR
+320,TCK-3155,Cannot connect to the server,"Hi, this is Diego. the billing portal has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+321,TCK-3102,Credit card declined but money was deducted,"Hi, this is Mohammed. The tax charged on invoice #30308 seems higher than usual. Can someone from billing confirm the tax rate applied?",Billing
+322,TCK-3208,Notifications not showing up,"Hi, this is Tara. I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+323,TCK-3336,Onboarding documents not received,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+324,TCK-3364,Requesting update to my personal details,"Hi, this is Anna. Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.",HR
+325,TCK-3456,Question about your return policy,I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?,General
+326,TCK-3320,Requesting update to my personal details,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+327,TCK-3279,Unable to access payslip for December,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+328,TCK-3461,General inquiry about your services,"Hi, this is Anna. I'd like to suggest a new feature for the checkout page that would let users export data in bulk; it would save a lot of time.",General
+329,TCK-3229,Cannot connect to the server,The integration between the mobile app v3.2 and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+330,TCK-3207,Getting error 500 when saving changes,The integration between the reporting module and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+331,TCK-3076,Question about proration on my upgrade,I was charged twice for the same subscription on April 11. Please refund the duplicate transaction of $401.18 to my original payment method.,Billing
+332,TCK-3466,General question about the reporting module,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+333,TCK-3271,Question about year-end bonus calculation,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+334,TCK-3144,Sync issue between mobile and desktop,"After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+335,TCK-3005,Unable to update my payment method,"Hi team, I noticed I was charged $361.93 on my May invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+336,TCK-3177,Login loop after entering credentials,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+337,TCK-3161,Sync issue between mobile and desktop,"Hi, this is Mei. I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+338,TCK-3479,Question about your return policy,Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.,General
+339,TCK-3284,Update on my promotion paperwork,"I'm expecting a child soon and would like clarification on the parental leave policy, including how much notice I need to give.",HR
+340,TCK-3528,Media inquiry for an interview,I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.,General
+341,TCK-3215,Getting error 500 when saving changes,I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?,Technical
+342,TCK-3152,Getting error 500 when saving changes,"Hi, this is Tara. Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.",Technical
+343,TCK-3267,API returning timeout errors,"Hi, this is Ben. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+344,TCK-3383,Onboarding documents not received,Could HR please issue an employment verification letter for me? I need it for a loan application by June 28.,HR
+345,TCK-3535,Suggestion for a new feature,"Hi, this is Ben. I'm interested in learning more about the mobile app and would like to request a demo for my team sometime next week.",General
+346,TCK-3030,Refund request for duplicate payment,My card shows a deduction of $308.72 but the payment status in the admin console still says declined. Please investigate and confirm whether the payment went through.,Billing
+347,TCK-3523,Request for a company brochure,Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?,General
+348,TCK-3505,Question about your return policy,"Hi, this is Jordan. Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.",General
+349,TCK-3329,Question about year-end bonus calculation,Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.,HR
+350,TCK-3339,Clarification on remote work policy,Could HR please issue an employment verification letter for me? I need it for a loan application by January 1.,HR
+351,TCK-3019,Downgrade my plan and adjust billing,"I paid my bill on time via the billing portal, but I was still charged a late fee of $344.15. Please remove this fee from my account.",Billing
+352,TCK-3202,Sync issue between mobile and desktop,"Hi, this is Victor. Every time I try to log into the CRM tool, the app crashes immediately after entering my credentials. This started after the update on July 10.",Technical
+353,TCK-3032,Missing invoice for January,"Hi, this is Ethan. I paid my bill on time via the API, but I was still charged a late fee of $495.83. Please remove this fee from my account.",Billing
+354,TCK-3223,Unable to reset my password,"Hi, this is Mohammed. I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?",Technical
+355,TCK-3085,Late fee charged despite on-time payment,"Hi, this is Layla. My company name is spelled incorrectly on invoice #45054. Could you reissue it with the correct name for our records?",Billing
+356,TCK-3206,Sync issue between mobile and desktop,The integration between the payment gateway and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+357,TCK-3162,App freezes during file upload,"Hi, this is Ethan. I keep getting a 500 internal server error whenever I try to save changes in the mobile app. This happens consistently, even after restarting the app.",Technical
+358,TCK-3174,Notifications not showing up,"I keep getting a 500 internal server error whenever I try to save changes in the CRM tool. This happens consistently, even after restarting the app.",Technical
+359,TCK-3386,Question about year-end bonus calculation,"I submitted a reimbursement claim for $358.66 on October 2, but it still shows as pending after two weeks. Could you check the status?",HR
+360,TCK-3036,Overcharged on my February invoice,I have not received an invoice for July yet. Could you please send it to my registered email as soon as possible?,Billing
+361,TCK-3368,Question about my leave balance,"Hi, this is Omar. I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+362,TCK-3006,Invoice #81066 shows wrong amount,"Hi, this is Emma. Hi team, I noticed I was charged $34.06 on my December invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+363,TCK-3075,Invoice #22015 shows wrong amount,"I cancelled my subscription last month, but I was still billed $332.76 on April 21. Please refund this charge and confirm the cancellation.",Billing
+364,TCK-3503,Media inquiry for an interview,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+365,TCK-3016,Billed twice this month,"Hi, this is Victor. I tried updating my card details in the billing portal but it keeps failing with an error. Can someone assist me in updating my payment method?",Billing
+366,TCK-3413,Question about company locations,I'd like to suggest a new feature for the billing portal that would let users export data in bulk; it would save a lot of time.,General
+367,TCK-3350,Issue with reimbursement claim,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+368,TCK-3265,Notifications not showing up,"Hi, this is Alex. Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around February 13.",Technical
+369,TCK-3430,Inquiry about career opportunities,"Hi, this is Priya. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+370,TCK-3210,Notifications not showing up,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+371,TCK-3212,Unable to reset my password,"Hi, this is Priya. Every time I try to log into the payment gateway, the app crashes immediately after entering my credentials. This started after the update on May 25.",Technical
+372,TCK-3220,Getting error 500 when saving changes,"Hi, this is Tara. Whenever I try to export my report to CSV in the mobile app, the download fails and I get a generic error message.",Technical
+373,TCK-3398,Onboarding documents not received,"I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+374,TCK-3455,Question about your return policy,I'm interested in learning more about the payment gateway and would like to request a demo for my team sometime next week.,General
+375,TCK-3216,API returning timeout errors,"Hi, this is Jordan. After installing the latest update, the billing portal just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+376,TCK-3272,Request for employment verification letter,Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.,HR
+377,TCK-3465,Feedback on recent experience,Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?,General
+378,TCK-3392,Question about year-end bonus calculation,"Hi, this is Ethan. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+379,TCK-3341,Question about my leave balance,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+380,TCK-3416,Media inquiry for an interview,I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?,General
+381,TCK-3504,Question about company locations,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+382,TCK-3446,Inquiry about career opportunities,I'd like to suggest a new feature for the CRM tool that would let users export data in bulk; it would save a lot of time.,General
+383,TCK-3367,Question about health insurance enrollment,"Hi, this is Jordan. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+384,TCK-3191,Login loop after entering credentials,"Hi, this is Chloe. Data I enter on the mobile app isn't syncing with the desktop version of the web dashboard. Changes made on one device don't appear on the other.",Technical
+385,TCK-3442,Request for a company brochure,"Hi, this is Wei. Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.",General
+386,TCK-3044,Missing invoice for August,"Hi, this is Ethan. My invoice #17026 lists an amount of $42.73, but according to my plan it should only be $327.87. Please review and issue a corrected invoice.",Billing
+387,TCK-3088,Tax amount seems wrong on invoice #64287,I was billed on both April 25 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+388,TCK-3259,Sync issue between mobile and desktop,"Hi, this is Anna. I stopped receiving push notifications from the desktop client about a week ago, even though notifications are enabled in settings.",Technical
+389,TCK-3147,App freezes during file upload,"Hi, this is Anna. Every time I try to log into the billing portal, the app crashes immediately after entering my credentials. This started after the update on April 25.",Technical
+390,TCK-3519,General inquiry about your services,I have a general question about how the mobile app works and whether it would be a good fit for a small team like ours.,General
+391,TCK-3243,Cannot connect to the server,"I stopped receiving push notifications from the desktop client about a week ago, even though notifications are enabled in settings.",Technical
+392,TCK-3126,Currency conversion looks incorrect on invoice,I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.,Billing
+393,TCK-3004,Downgrade my plan and adjust billing,I tried updating my card details in the CRM tool but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+394,TCK-3521,General inquiry about your services,I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.,General
+395,TCK-3432,Requesting a product demo,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+396,TCK-3104,Late fee charged despite on-time payment,My card shows a deduction of $373.30 but the payment status in the checkout page still says declined. Please investigate and confirm whether the payment went through.,Billing
+397,TCK-3538,Requesting a product demo,I'm interested in career opportunities at your company. Could you point me to your current job openings?,General
+398,TCK-3071,Currency conversion looks incorrect on invoice,"Hi, this is Kevin. My invoice #52992 lists an amount of $246.03, but according to my plan it should only be $322.71. Please review and issue a corrected invoice.",Billing
+399,TCK-3172,Blank screen after latest update,"I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+400,TCK-3187,Cannot connect to the server,None of my data is loading in the API today; the dashboard just shows a spinning loader indefinitely.,Technical
+401,TCK-3332,Question about year-end bonus calculation,"Hi, this is Isabella. I'm unable to download my payslip for September from the HR portal; it just shows a loading error every time I click on it.",HR
+402,TCK-3079,Need invoice reissued with correct company name,"I paid my bill on time via the web dashboard, but I was still charged a late fee of $356.13. Please remove this fee from my account.",Billing
+403,TCK-3051,Credit card declined but money was deducted,I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.,Billing
+404,TCK-3376,Question about my leave balance,"Hi, this is Noah. I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.",HR
+405,TCK-3256,Data not loading in the mobile app v3.2,Two-factor authentication codes aren't being accepted even though I'm entering them correctly and quickly. This is blocking me from logging in.,Technical
+406,TCK-3419,Feedback on recent experience,"Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+407,TCK-3391,Clarification on remote work policy,There seems to be a discrepancy in my attendance records for September; a few days I worked from the office are marked as absent.,HR
+408,TCK-3227,Integration with third-party tool broken,Data I enter on the mobile app isn't syncing with the desktop version of the mobile app. Changes made on one device don't appear on the other.,Technical
+409,TCK-3363,Issue with attendance records,I recently changed my address and would like to update my personal details on file. Please let me know the process for this.,HR
+410,TCK-3150,Blank screen after latest update,The integration between the payment gateway and our third-party analytics tool stopped working after the recent update; no data is being pulled through.,Technical
+411,TCK-3373,Unable to access payslip for December,"Hi, this is Emma. I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?",HR
+412,TCK-3486,Question about your return policy,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+413,TCK-3186,Data not loading in the mobile app,"Every time I try to log into the admin console, the app crashes immediately after entering my credentials. This started after the update on August 5.",Technical
+414,TCK-3106,Question about proration on my upgrade,"Hi, this is Carlos. My card shows a deduction of $195.70 but the payment status in the web dashboard still says declined. Please investigate and confirm whether the payment went through.",Billing
+415,TCK-3061,Billed twice this month,I was charged twice for the same subscription on August 28. Please refund the duplicate transaction of $282.04 to my original payment method.,Billing
+416,TCK-3323,Question about year-end bonus calculation,"Hi, this is Emma. I'd like to request a change to my reporting manager on file, since my team structure changed last month.",HR
+417,TCK-3086,Billed twice this month,I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.,Billing
+418,TCK-3435,General question about the reporting module,I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?,General
+419,TCK-3260,Data not loading in the admin console,"I'm unable to connect to the server from my office network, though it works fine on my home wifi. Getting a connection refused error.",Technical
+420,TCK-3525,Question about business hours,"Hi, this is Alex. Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.",General
+421,TCK-3453,Partnership opportunity inquiry,"Hi, this is Diego. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+422,TCK-3053,Requesting a copy of my receipt,"Hi, this is Jordan. I tried updating my card details in the reporting module but it keeps failing with an error. Can someone assist me in updating my payment method?",Billing
+423,TCK-3426,General inquiry about your services,Could you let me know your business hours and whether you're open on weekends? I'm trying to plan a call with your team.,General
+424,TCK-3425,Inquiry about your privacy policy,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+425,TCK-3313,Request for a copy of my offer letter,"Hi, this is Omar. I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?",HR
+426,TCK-3401,Request to change my reporting manager on file,Could you please send me a copy of my original offer letter? I need it for a visa application.,HR
+427,TCK-3055,Overcharged on my December invoice,Could you please email me a copy of the receipt for invoice #94896? I need it for my expense report.,Billing
+428,TCK-3057,Invoice #45018 shows wrong amount,I was billed on both May 24 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+429,TCK-3387,Issue with reimbursement claim,I'm unable to download my payslip for July from the HR portal; it just shows a loading error every time I click on it.,HR
+430,TCK-3235,Export to CSV fails every time,"Hi, this is Kevin. The app freezes completely whenever I try to upload a file larger than 10MB in the admin console. I have to force close it every time.",Technical
+431,TCK-3501,Partnership opportunity inquiry,Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.,General
+432,TCK-3517,Partnership opportunity inquiry,"Hi, this is Liam. I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.",General
+433,TCK-3026,Unable to update my payment method,I upgraded my plan mid-cycle and I'm confused about the prorated charge of $403.66. Could you explain how this was calculated?,Billing
+434,TCK-3362,Request for a copy of my offer letter,"Hi, this is Alex. There seems to be a discrepancy in my attendance records for March; a few days I worked from the office are marked as absent.",HR
+435,TCK-3054,Tax amount seems wrong on invoice #45003,I was charged twice for the same subscription on March 10. Please refund the duplicate transaction of $229.89 to my original payment method.,Billing
+436,TCK-3343,Onboarding documents not received,"Hi, this is Anna. I'm unable to download my payslip for January from the HR portal; it just shows a loading error every time I click on it.",HR
+437,TCK-3310,Parental leave policy clarification,I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?,HR
+438,TCK-3264,Two-factor authentication not working,"Hi, this is Isabella. The app freezes completely whenever I try to upload a file larger than 10MB in the API. I have to force close it every time.",Technical
+439,TCK-3494,How do I contact the sales team?,"Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+440,TCK-3437,Partnership opportunity inquiry,"Hi, this is Layla. I'm interested in learning more about the mobile app v3.2 and would like to request a demo for my team sometime next week.",General
+441,TCK-3078,Need invoice reissued with correct company name,"Hi, this is Fatima. I tried updating my card details in the mobile app v3.2 but it keeps failing with an error. Can someone assist me in updating my payment method?",Billing
+442,TCK-3137,Sync issue between mobile and desktop,"Hi, this is Alex. Whenever I try to export my report to CSV in the checkout page, the download fails and I get a generic error message.",Technical
+443,TCK-3476,General compliment for your support team,I have a general question about how the checkout page works and whether it would be a good fit for a small team like ours.,General
+444,TCK-3395,Onboarding documents not received,"Hi, this is Mei. I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.",HR
+445,TCK-3024,Downgrade my plan and adjust billing,"Hi, this is Fatima. Hi team, I noticed I was charged $416.89 on my April invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+446,TCK-3394,Onboarding documents not received,"Hi, this is Mohammed. Could you please send me a copy of my original offer letter? I need it for a visa application.",HR
+447,TCK-3182,the mobile app v3.2 crashes on login,The app freezes completely whenever I try to upload a file larger than 10MB in the API. I have to force close it every time.,Technical
+448,TCK-3402,Issue with reimbursement claim,I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.,HR
+449,TCK-3175,Integration with third-party tool broken,The app freezes completely whenever I try to upload a file larger than 10MB in the reporting module. I have to force close it every time.,Technical
+450,TCK-3133,Late fee charged despite on-time payment,I upgraded my plan mid-cycle and I'm confused about the prorated charge of $29.06. Could you explain how this was calculated?,Billing
+451,TCK-3250,API returning timeout errors,"the reporting module has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+452,TCK-3115,Missing invoice for September,"Hi, this is Tara. I upgraded my plan mid-cycle and I'm confused about the prorated charge of $404.06. Could you explain how this was calculated?",Billing
+453,TCK-3288,Requesting update to my personal details,I have a question about enrolling in the health insurance plan; the deadline is approaching and I'm not sure which plan covers dependents.,HR
+454,TCK-3062,Billed twice this month,"I cancelled my subscription last month, but I was still billed $90.88 on February 15. Please refund this charge and confirm the cancellation.",Billing
+455,TCK-3117,Tax amount seems wrong on invoice #52101,"I cancelled my subscription last month, but I was still billed $343.37 on February 11. Please refund this charge and confirm the cancellation.",Billing
+456,TCK-3317,Clarification on remote work policy,Could someone from HR confirm my current leave balance? The number showing in the portal doesn't match what I calculated myself.,HR
+457,TCK-3059,Subscription renewed but I cancelled it,I was charged twice for the same subscription on January 5. Please refund the duplicate transaction of $262.75 to my original payment method.,Billing
+458,TCK-3221,Getting error 500 when saving changes,"Hi, this is Layla. After entering my correct login credentials, I get redirected back to the login page in a loop and can never actually get in.",Technical
+459,TCK-3173,Unable to reset my password,None of my data is loading in the API today; the dashboard just shows a spinning loader indefinitely.,Technical
+460,TCK-3033,Overcharged on my October invoice,"I cancelled my subscription last month, but I was still billed $363.32 on April 15. Please refund this charge and confirm the cancellation.",Billing
+461,TCK-3414,General question about the billing portal,"Hi, this is Yusuf. I'd like to suggest a new feature for the checkout page that would let users export data in bulk; it would save a lot of time.",General
+462,TCK-3017,Late fee charged despite on-time payment,"Hi, this is Nina. I would like to downgrade from the premium plan to the basic plan and have my next invoice reflect the new price.",Billing
+463,TCK-3258,Notifications not showing up,"Hi, this is Mohammed. The app freezes completely whenever I try to upload a file larger than 10MB in the API. I have to force close it every time.",Technical
+464,TCK-3458,Requesting a product demo,"Hi, this is Priya. Could you send me a company brochure or overview document? I'm putting together a presentation for my manager.",General
+465,TCK-3441,Question about business hours,"Hi, this is Ethan. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+466,TCK-3424,Question about business hours,"Hi, this is Jordan. Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.",General
+467,TCK-3090,Late fee charged despite on-time payment,"Hi, this is Wei. I have not received an invoice for December yet. Could you please send it to my registered email as soon as possible?",Billing
+468,TCK-3082,Downgrade my plan and adjust billing,Could you please email me a copy of the receipt for invoice #21188? I need it for my expense report.,Billing
+469,TCK-3347,Question about health insurance enrollment,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+470,TCK-3183,Data not loading in the mobile app v3.2,Data I enter on the mobile app isn't syncing with the desktop version of the payment gateway. Changes made on one device don't appear on the other.,Technical
+471,TCK-3134,Overcharged on my September invoice,My company name is spelled incorrectly on invoice #16705. Could you reissue it with the correct name for our records?,Billing
+472,TCK-3452,Media inquiry for an interview,"Hi, this is Wei. I'm interested in learning more about the billing portal and would like to request a demo for my team sometime next week.",General
+473,TCK-3184,Blank screen after latest update,"Hi, this is Tara. the desktop client has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+474,TCK-3010,Credit card declined but money was deducted,"Hi, this is Carlos. I paid my bill on time via the desktop client, but I was still charged a late fee of $423.70. Please remove this fee from my account.",Billing
+475,TCK-3025,Billed twice this month,I upgraded my plan mid-cycle and I'm confused about the prorated charge of $461.56. Could you explain how this was calculated?,Billing
+476,TCK-3286,Parental leave policy clarification,"Hi, this is Mohammed. I'm unable to download my payslip for December from the HR portal; it just shows a loading error every time I click on it.",HR
+477,TCK-3108,Need invoice reissued with correct company name,"Hi team, I noticed I was charged $24.36 on my March invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+478,TCK-3121,Need invoice reissued with correct company name,My card shows a deduction of $138.90 but the payment status in the billing portal still says declined. Please investigate and confirm whether the payment went through.,Billing
+479,TCK-3156,Getting error 500 when saving changes,"I keep getting a 500 internal server error whenever I try to save changes in the checkout page. This happens consistently, even after restarting the app.",Technical
+480,TCK-3253,Integration with third-party tool broken,"Hi, this is Carlos. Whenever I try to export my report to CSV in the admin console, the download fails and I get a generic error message.",Technical
+481,TCK-3213,API returning timeout errors,"Hi, this is Emma. Every time I try to log into the API, the app crashes immediately after entering my credentials. This started after the update on June 19.",Technical
+482,TCK-3407,General question about the admin console,"Hi, this is Fatima. I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.",General
+483,TCK-3052,Overcharged on my August invoice,"Hi, this is Jordan. I paid my bill on time via the reporting module, but I was still charged a late fee of $360.63. Please remove this fee from my account.",Billing
+484,TCK-3252,Login loop after entering credentials,"Hi, this is Nina. The integration between the reporting module and our third-party analytics tool stopped working after the recent update; no data is being pulled through.",Technical
+485,TCK-3311,Clarification on remote work policy,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+486,TCK-3081,Need invoice reissued with correct company name,"I cancelled my subscription last month, but I was still billed $115.55 on December 28. Please refund this charge and confirm the cancellation.",Billing
+487,TCK-3103,Unable to update my payment method,"Hi, this is Sam. Could you please email me a copy of the receipt for invoice #88282? I need it for my expense report.",Billing
+488,TCK-3089,Currency conversion looks incorrect on invoice,"Hi, this is Chloe. I have not received an invoice for January yet. Could you please send it to my registered email as soon as possible?",Billing
+489,TCK-3067,Question about proration on my upgrade,"Hi, this is Liam. Hi team, I noticed I was charged $374.98 on my November invoice, which is more than my usual plan cost. Can you please check and correct this?",Billing
+490,TCK-3248,Slow performance on the customer portal,"Every time I try to log into the checkout page, the app crashes immediately after entering my credentials. This started after the update on January 11.",Technical
+491,TCK-3342,Request to change my reporting manager on file,"I was told my promotion was approved last month, but I haven't seen any updates in the system. Could you check on the paperwork status?",HR
+492,TCK-3045,Question about proration on my upgrade,"I cancelled my subscription last month, but I was still billed $321.28 on October 26. Please refund this charge and confirm the cancellation.",Billing
+493,TCK-3384,Request for a copy of my offer letter,"I submitted a reimbursement claim for $333.90 on September 17, but it still shows as pending after two weeks. Could you check the status?",HR
+494,TCK-3354,Question about year-end bonus calculation,Could HR please issue an employment verification letter for me? I need it for a loan application by February 4.,HR
+495,TCK-3145,the admin console crashes on login,"Hi, this is Kevin. After installing the latest update, the payment gateway just shows a blank white screen on launch. I've tried reinstalling with no luck.",Technical
+496,TCK-3107,Billed twice this month,"Hi, this is Layla. I was billed on both August 12 and again three days later for the same subscription period. Please refund one of the charges.",Billing
+497,TCK-3319,Update on my promotion paperwork,"Hi, this is Tara. Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.",HR
+498,TCK-3083,Currency conversion looks incorrect on invoice,I was charged twice for the same subscription on September 11. Please refund the duplicate transaction of $348.15 to my original payment method.,Billing
+499,TCK-3536,Partnership opportunity inquiry,I'd like to suggest a new feature for the checkout page that would let users export data in bulk; it would save a lot of time.,General
+500,TCK-3498,Inquiry about career opportunities,"Hi, this is Noah. I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?",General
+501,TCK-3410,Suggestion for a new feature,"Hi, this is Anna. Our company is exploring a potential partnership with yours. Could you point me to the right person to discuss this further?",General
+502,TCK-3242,Cannot connect to the server,I requested a password reset link three times but never received the email. Can someone manually reset my password or check the email delivery?,Technical
+503,TCK-3408,General compliment for your support team,"Hi, this is Sam. Hi, I came across your company online and wanted to know more about the services you offer. Could someone share some general information?",General
+504,TCK-3185,Getting error 500 when saving changes,"Hi, this is Fatima. Our integration is receiving timeout errors from the API for requests taking longer than 30 seconds. This started around March 16.",Technical
+505,TCK-3377,Onboarding documents not received,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+506,TCK-3335,Unable to log hours in the HR portal,"Hi, this is Alex. I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?",HR
+507,TCK-3345,Update on my promotion paperwork,I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.,HR
+508,TCK-3482,How do I contact the sales team?,I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.,General
+509,TCK-3427,Question about company locations,I have a general question about how the web dashboard works and whether it would be a good fit for a small team like ours.,General
+510,TCK-3214,Notifications not showing up,"Hi, this is Ben. Every time I try to log into the web dashboard, the app crashes immediately after entering my credentials. This started after the update on January 25.",Technical
+511,TCK-3492,Inquiry about career opportunities,"Hi, this is Layla. Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.",General
+512,TCK-3400,Unable to log hours in the HR portal,"Hi, this is Aisha. Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.",HR
+513,TCK-3301,Request to change my reporting manager on file,I joined the company last week but still haven't received my onboarding documents. Could someone resend them to my email?,HR
+514,TCK-3135,Missing invoice for September,I was billed on both October 22 and again three days later for the same subscription period. Please refund one of the charges.,Billing
+515,TCK-3480,How do I contact the sales team?,I wanted to share some feedback about my recent experience with your team; overall it was positive but there is room for improvement in response time.,General
+516,TCK-3348,Request for a copy of my offer letter,"Hi, this is Alex. I'm unable to log my working hours in the HR portal today; the submit button doesn't seem to respond.",HR
+517,TCK-3225,App freezes during file upload,"Hi, this is Sam. I stopped receiving push notifications from the mobile app v3.2 about a week ago, even though notifications are enabled in settings.",Technical
+518,TCK-3539,Requesting a product demo,I have a general question about how the web dashboard works and whether it would be a good fit for a small team like ours.,General
+519,TCK-3449,Suggestion for a new feature,I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?,General
+520,TCK-3353,Question about year-end bonus calculation,Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.,HR
+521,TCK-3481,Requesting a product demo,Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.,General
+522,TCK-3197,Data not loading in the CRM tool,"Hi, this is Mohammed. Whenever I try to export my report to CSV in the web dashboard, the download fails and I get a generic error message.",Technical
+523,TCK-3295,Requesting update to my personal details,"Hi, this is Aisha. I submitted a reimbursement claim for $352.93 on June 5, but it still shows as pending after two weeks. Could you check the status?",HR
+524,TCK-3166,Sync issue between mobile and desktop,The app freezes completely whenever I try to upload a file larger than 10MB in the mobile app v3.2. I have to force close it every time.,Technical
+525,TCK-3022,Requesting a copy of my receipt,My company name is spelled incorrectly on invoice #50687. Could you reissue it with the correct name for our records?,Billing
+526,TCK-3447,Question about business hours,"Hi, this is Ethan. I have a question regarding your privacy policy and how customer data is stored and used. Could someone clarify this for me?",General
+527,TCK-3460,Suggestion for a new feature,"Hi, this is Raj. I recently purchased a product from you and wanted to ask about your return policy in case it doesn't work out.",General
+528,TCK-3356,Clarification on remote work policy,"Hi, this is Yusuf. Could you clarify the current remote work policy? I want to confirm how many days per week I'm allowed to work from home.",HR
+529,TCK-3507,Partnership opportunity inquiry,"Hi, this is Sofia. I have some questions about pricing plans and would like to speak with someone from the sales team. How can I get in touch?",General
+530,TCK-3120,Billed twice this month,"Hi, this is Chloe. My card shows a deduction of $75.67 but the payment status in the admin console still says declined. Please investigate and confirm whether the payment went through.",Billing
+531,TCK-3485,Inquiry about your privacy policy,Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.,General
+532,TCK-3428,Requesting a product demo,"Hi, this is Ben. Could you tell me which cities you currently have offices in? I'm curious whether there's a location near me.",General
+533,TCK-3275,Unable to access payslip for September,"Hi, this is Diego. Could someone explain how the year-end bonus is calculated? I want to understand the formula used based on performance ratings.",HR
+534,TCK-3066,Subscription renewed but I cancelled it,"I cancelled my subscription last month, but I was still billed $386.06 on November 25. Please refund this charge and confirm the cancellation.",Billing
+535,TCK-3324,Question about health insurance enrollment,"Hi, this is Liam. There seems to be a discrepancy in my attendance records for November; a few days I worked from the office are marked as absent.",HR
+536,TCK-3433,General inquiry about your services,"Hi, this is Tara. Just wanted to say your support team was fantastic when I reached out last week; they resolved my issue quickly and were very polite.",General
+537,TCK-3020,Refund request for duplicate payment,My company name is spelled incorrectly on invoice #49446. Could you reissue it with the correct name for our records?,Billing
+538,TCK-3063,Missing invoice for June,I tried updating my card details in the CRM tool but it keeps failing with an error. Can someone assist me in updating my payment method?,Billing
+539,TCK-3238,Sync issue between mobile and desktop,"the mobile app v3.2 has become extremely slow over the past few days, taking over a minute to load simple pages.",Technical
+540,TCK-3500,How do I contact the sales team?,"Hi, this is Priya. I'm a journalist writing about companies in this space and would love to schedule a short interview with someone from your team.",General
